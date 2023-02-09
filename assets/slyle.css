@@ -1,0 +1,20 @@
+.instructions {
+    grid-column: auto;
+    width: 70%;
+}
+
+.directions {
+    box-shadow: 0 4px 8px 0;
+    grid-column: auto;
+}
+
+.background {
+    background-image:url(./IMG_0779.JPG);
+    flex: auto;
+    z-index: -1;
+
+}
+
+.savebtn {
+    size: 10px 5px;
+}
