@@ -1,20 +1,111 @@
-.instructions {
-    grid-column: auto;
-    width: 70%;
+body {
+    margin: 0px;
+    height: 100%;
+    background-image: url(./IMG_0779.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0px;
+    height: 100%;
+    background-color: rgba(250, 235, 215, 0.921);
+  }
+
+  .background {
+    padding-left: 45px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(187, 169, 70);
+    text-shadow: 1px 1px rgb(156, 27, 27);
+  }
+  
+  #instructions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* .directions {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 1px black;
+  } */
+  
+  #searchbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  input[type="text"], input[type="date"] {
+    width: 200px;
+    height: 30px;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .searchBtn {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    
+  }
+  
+  #flights {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 1px 1px black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .card {
+    width: 25%;
+    display: inline-block;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    opacity: 75%;
 }
 
-.directions {
-    box-shadow: 0 4px 8px 0;
-    grid-column: auto;
-}
-
-.background {
-    background-image:url(./IMG_0779.JPG);
-    flex: auto;
-    z-index: -1;
-
-}
-
-.savebtn {
-    size: 10px 5px;
+#instructions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
