@@ -2,12 +2,9 @@ body {
     margin: 0px;
     height: 100%;
     background-image: url(./IMG_0779.JPG);
-    background-size:auto;
-    background-repeat: no-repeat;
+    background-size: 150px;
     font-family: sans-serif;
     padding: 20px;
-    margin: 0px;
-    height: 100%;
     background-color: rgb(250, 235, 215);
   }
 
@@ -120,3 +117,4 @@ header {
 #kirksville {
     font-size: smaller;
 }
+.backgroundimage
