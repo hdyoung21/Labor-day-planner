@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     height: 100%;
+    max-width: 100%;
     background-image: url(./IMG_0779.JPG);
     background-size: 150px;
     font-family: sans-serif;
@@ -99,7 +100,7 @@ body {
 header {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:  rgb(226, 155, 21);
+    color:  rgb(110, 74, 8);
     font-size: larger;
     width: auto;
     height: auto;
